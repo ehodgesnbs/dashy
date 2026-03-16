@@ -30,6 +30,7 @@ jobs:
         run: yarn build
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
+          BASE_URL: "/https://ehodgesnbs.github.io/dashy/"  # Replace with your actual repository name
 
       - name: Create .nojekyll
         run: touch ./dist/.nojekyll
